@@ -90,6 +90,8 @@ const CustomButton = React.forwardRef(({ children, ...props }, ref) => (
   </Button>
 ));
 
+CustomButton.displayName = 'CustomButton';
+
 // Background animation
 const gradientAnimation = keyframes`
   0% { background-position: 0% 50%; }
