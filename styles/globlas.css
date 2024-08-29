@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-image: url('data:image/svg+xml;base64,...'); /* Add a base64 encoded noisy texture image */
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
